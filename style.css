@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header #navbar {
+  background-color: #292f52;
+}
+header ul {
+  width: 53%;
+  margin-top: -65px;
+  float: inline-end;
+}
+header ul li {
+  display: inline-block;
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+header ul li:hover {
+  background-color: #3a4264;
+}
+header ul li:hover a {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-left: -2px;
+}
+header .col-10 {
+  margin-left: 231px;
+}/*# sourceMappingURL=style.css.map */

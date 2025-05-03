@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Header //
+header {
+    #navbar {
+        background-color: #292f52;
+    }
+
+    ul {
+        width: 53%;
+        margin-top: -65px;
+        float: inline-end;
+        li {
+            display: inline-block;
+            margin-left: 30px;
+            padding: 10px;
+            border-radius: 5px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        li:hover{
+            background-color: #3a4264;
+            a{
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+                margin-left: -2px;
+            }
+        }
+    }
+
+    .col-10 {
+        margin-left: 231px;
+    }
+}
