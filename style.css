@@ -5,31 +5,38 @@
 }
 
 header #navbar {
-  background-color: #292f52;
+  background-color: #fff4e3;
 }
 header ul {
-  width: 53%;
-  margin-top: -65px;
-  float: inline-end;
+  width: 100%;
+  margin-top: 20px;
 }
 header ul li {
   display: inline-block;
   margin-left: 30px;
   padding: 10px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 header ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(55, 55, 55);
 }
 header ul li:hover {
-  background-color: #3a4264;
+  background-color: #ffe9c7;
 }
 header ul li:hover a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 500;
   margin-left: -2px;
 }
-header .col-10 {
-  margin-left: 231px;
+header .col-8 {
+  margin-left: -150px;
+}
+header .col-1 {
+  margin-left: -200px;
+}
+
+.sec1 .carousel-item {
+  height: 837px;
 }/*# sourceMappingURL=style.css.map */
