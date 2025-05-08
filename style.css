@@ -39,4 +39,12 @@ header .col-1 {
 
 .sec1 .carousel-item {
   height: 837px;
+}
+
+.sec2 .row {
+  width: 100%;
+}
+.sec2 .col-2 {
+  margin-left: 50px;
+  margin-right: 30px;
 }/*# sourceMappingURL=style.css.map */
