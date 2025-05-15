@@ -14,7 +14,7 @@ header ul {
 }
 header ul li {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 15px;
   padding: 10px;
   border-radius: 5px;
   transition: 0.5s;
