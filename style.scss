@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #fef4e4;
+}
+
 // Header //
 header {
     #navbar {
@@ -114,5 +118,10 @@ header {
             z-index: 4;
             position: relative;
         }
+    }
+}
+.sec4{
+    .col{
+        column-gap: 10px;
     }
 }

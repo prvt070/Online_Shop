@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #fef4e4;
+}
+
 header #navbar {
   background-color: #fff4e3;
 }
@@ -89,4 +93,9 @@ header .col-1 {
   margin-top: -600px;
   z-index: 4;
   position: relative;
+}
+
+.sec4 .col {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }/*# sourceMappingURL=style.css.map */
