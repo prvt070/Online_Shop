@@ -96,6 +96,16 @@ header .col-1 {
 }
 
 .sec4 .col {
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  margin-left: 20px;
+  padding-top: 15px;
+  border-radius: 30px;
+}
+.sec4 .col img {
+  border-radius: 10px;
+}
+.sec4 .col .col-7 .btn {
+  border: 0.5px solid rgba(111, 103, 88, 0.3254901961);
+}
+.sec4 .col .col-4 {
+  margin-right: 33px;
 }/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #fef4e4;
 }
 
@@ -86,6 +86,7 @@ header {
 
 .sec3 {
     margin-top: 100px;
+
     .text {
         margin-top: 100px;
         background-color: #ffd391;
@@ -104,14 +105,16 @@ header {
             z-index: 3;
             position: relative;
         }
-        .img2{
+
+        .img2 {
             border-radius: 10px;
             margin-left: 550px;
             margin-top: -150px;
             z-index: 1;
             position: relative;
         }
-        .img3{
+
+        .img3 {
             border-radius: 96px 48px 16px 96px;
             margin-left: 800px;
             margin-top: -600px;
@@ -120,8 +123,25 @@ header {
         }
     }
 }
-.sec4{
-    .col{
-        column-gap: 10px;
+
+.sec4 {
+    .col {
+        margin-left: 20px;
+        padding-top: 15px;
+        border-radius: 30px;
+
+        img {
+            border-radius: 10px;
+        }
+
+        .col-7 {
+            .btn {
+                border: 0.5px solid #6f675853;
+            }
+        }
+
+        .col-4 {
+            margin-right: 33px;
+        }
     }
 }
