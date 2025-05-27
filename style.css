@@ -108,4 +108,11 @@ header .col-1 {
 }
 .sec4 .col .col-4 {
   margin-right: 33px;
+}
+
+.sec5 img {
+  background: transparent;
+}
+.sec5 .carousel {
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */
