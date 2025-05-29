@@ -149,11 +149,46 @@ header {
 
 // section 5//
 
-.sec5{
-    img{
-        background: transparent;
+.sec5 {
+    img {
+        overflow: hidden;
     }
-    .carousel{
+
+    .carousel {
         border-radius: 50px;
+
+        .carousel-control-prev {
+            margin-left: -200px;
+
+            span {
+                color: rgb(0, 0, 0);
+            }
+        }
+
+        .carousel-control-next {
+            margin-right: -200px;
+
+            span {
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+}
+
+// section 6 //
+
+.sec6 {
+    .card {
+        border: 0px;
+
+        img:hover{
+            animation: backwards;
+            transition: 0.5s;
+            transform: scale(1.1)
+        }
+    }
+
+    .card-body {
+        background-color: #fef4e4;
     }
 }
