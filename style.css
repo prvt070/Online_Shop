@@ -8,6 +8,12 @@ body {
   background-color: #fef4e4;
 }
 
+header {
+  z-index: 5;
+  position: sticky;
+  top: 0.1px;
+  border-bottom: 1px solid black;
+}
 header #navbar {
   background-color: #fff4e3;
 }
@@ -42,6 +48,9 @@ header .col-1 {
   margin-left: -200px;
 }
 
+.sec1 {
+  margin-top: 1px;
+}
 .sec1 .carousel-item {
   height: 900px;
 }
@@ -115,6 +124,7 @@ header .col-1 {
 }
 .sec5 .carousel {
   border-radius: 50px;
+  height: 500px;
 }
 .sec5 .carousel .carousel-control-prev {
   margin-left: -200px;
@@ -138,5 +148,17 @@ header .col-1 {
   transform: scale(1.1);
 }
 .sec6 .card-body {
+  background-color: #fef4e4;
+}
+
+.sec7 .card {
+  border: 0px;
+}
+.sec7 .card img:hover {
+  animation: backwards;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.sec7 .card-body {
   background-color: #fef4e4;
 }/*# sourceMappingURL=style.css.map */
