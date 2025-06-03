@@ -161,4 +161,73 @@ header .col-1 {
 }
 .sec7 .card-body {
   background-color: #fef4e4;
+}
+
+.modal-content {
+  background-color: #ffe9c7;
+}
+.modal-content .modal-header {
+  border-bottom: 1px solid black;
+}
+.modal-content .modal-body {
+  color: #000000;
+  text-align: center;
+}
+.modal-content .modal-body ul {
+  margin-left: -60px;
+}
+.modal-content .modal-body ul li:hover {
+  color: white;
+  background: #997238;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+.modal-content .modal-body ul li {
+  display: inline-block;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.modal-content .modal-footer {
+  border-top: 1px solid black;
+}
+.modal-content .modal-footer p {
+  margin-right: 120px;
+}
+
+.testimonials {
+  /* Clear floats after the columns */
+  /* Responsive columns */
+  /* Style the counter cards */
+}
+.testimonials .column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+.testimonials .row {
+  margin: 0 -5px;
+}
+.testimonials .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .testimonials .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.testimonials .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffe9c7;
+  color: black;
+  border: 1px solid black;
+}
+.testimonials .fa {
+  font-size: 50px;
 }/*# sourceMappingURL=style.css.map */
