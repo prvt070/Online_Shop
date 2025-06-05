@@ -230,4 +230,11 @@ header .col-1 {
 }
 .testimonials .fa {
   font-size: 50px;
+}
+
+footer .text {
+  border-top: 1px dotted black;
+}
+footer .text li {
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
