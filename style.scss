@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+    html {
+        width: 600px;
+        padding-left: -300px;
+    }
+    .header{
+        width: 600px;
+        form{
+            input{
+                display: inline-block;
+            }
+            button{
+                display: inline-block;
+            }
+        }
+    }
+}
+
 body {
     background-color: #fef4e4;
 }
