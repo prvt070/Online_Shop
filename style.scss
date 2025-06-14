@@ -5,9 +5,11 @@
 }
 
 @media screen and (max-width: 600px) {
+    .container{
+        max-width: 400;
+    }
     html {
-        width: 600px;
-        padding-left: -300px;
+        width: 1645px;
     }
     .header{
         width: 600px;
