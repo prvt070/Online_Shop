@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+.container1{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
 @media screen and (max-width: 600px) {
-    .container{
+    .container1{
         max-width: 400;
     }
     html {
@@ -13,14 +19,55 @@
     }
     .header{
         width: 600px;
-        form{
-            input{
-                display: inline-block;
-            }
-            button{
-                display: inline-block;
-            }
-        }
+        
+    }
+
+    .carousel-item{
+        width: 400px;
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container1{
+        max-width: 1000;
+    }
+    html {
+        width: 1645px;
+    }
+    .header{
+        width: 600px;
+        
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container1{
+        max-width: 600;
+    }
+    html {
+        width: 1645px;
+    }
+    .header{
+        width: 600px;
+        
+    }
+    .carousel-item{
+        width: 600px;
+        margin-left: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1800px) {
+    .container1{
+        max-width: 1600;
+    }
+    html {
+        width: 2000px;
+    }
+    .header{
+        width: 600px;
     }
 }
 
@@ -34,6 +81,17 @@ header {
     position: sticky;
     top: 0.1px;
     border-bottom: 1px solid black;
+
+    form{
+            input{
+                display: block;
+            }
+            button{
+                display: block;
+                margin-left: 250px;
+                margin-top: -66px;
+            }
+        }
 
     #navbar {
         background-color: #fff4e3;
